@@ -1,0 +1,5 @@
+<h1>This is welcome page and it should show current time</h1>
+<%# TODO: current time should be updated every second %>
+<hr>
+<%= @current_time.in_time_zone( "Taipei").to_formatted_s(:long_ordinal) %>
+
